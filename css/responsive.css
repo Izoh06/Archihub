@@ -1,0 +1,95 @@
+@charset "UTF-8";
+
+
+@media (max-width: 1200px) {
+	nav {
+	  	padding-left: 130px!important;
+	}
+	nav ul {
+		padding-right: 70px!important;
+	}
+}
+
+@media (max-width: 1050px) {
+	nav {
+	  	padding-left: 90px!important;
+	}
+	nav ul {
+		padding-right: 40px!important;
+	}
+}
+
+
+@media (min-width: 992px) {
+	.navbar-brand {
+		font-size: 24px;
+	}
+}
+
+@media (max-width: 992px) {
+	nav ul.navBar_resp li a {
+		font-size: 15px;
+	}
+
+	.navbar-brand {
+		font-size: 22px;
+	}
+}
+
+
+@media (max-width: 858px) {
+	.checkbtn {
+		display: block;
+	}
+
+	ul.contactsb {
+		display: none!important;
+	}
+
+	nav ul {
+		position: fixed;
+		width: 100%;
+		background: #97445F;
+		opacity: 0.95;
+		top: 77px;
+		left: -100%;
+		text-align: center;
+		transition: all 0.5s ease-in-out;
+	}
+
+	nav.active ul {
+		position: fixed;
+		width: 100%;
+		background: #EDEDED;
+		top: 77px;
+		left: -100%;
+		text-align: center;
+		transition: all 0.5s ease-in-out;
+	}
+
+	nav ul li {
+		display: block!important;
+		margin: 50px 0;
+	}
+
+	nav ul li a {
+		font-size: 20px;
+	}
+
+	#check:checked ~ ul {
+		left: 0;
+	}
+}
+
+@media (max-width: 768px) {
+
+	nav ul li a {
+		font-size: 15px;
+	}
+	.fa-bars {
+		font-size: 24px;
+	}
+	nav {
+	  	padding-left: 20px!important;
+	}
+}
