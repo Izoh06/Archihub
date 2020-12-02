@@ -1,14 +1,199 @@
 /*============================================================================
                           INDEX PAGE
 =============================================================================*/
-                          
+ 
+
+
+
+
+/* nav */
+
+nav {
+  top: 0;
+  width: 100%;
+  z-index: 100%;
+  background-color: #403C39;
+  transition: all 1s;
+  z-index: 100%;
+}
+
+nav a:hover {
+  color: #ADB6BC!important;
+}
+
+nav.active {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  color: black!important;
+  background: white;
+  transition: all 5s;
+}
+
+
+
+nav.active a:hover {
+  color: #2470a0!important;
+}
+
+nav ul {
+	float: right;
+  margin-right: 60px;
+}
+
+nav ul li {
+	display: inline-block;
+	margin: 0 5px;
+	margin-right: 15px;
+  letter-spacing: 1px;
+}
+
+nav a{
+  color: white!important; 
+}
+
+nav.active a{
+  color: black!important;
+}
+
+.main_nav ul {
+  text-decoration: none!important;
+}
+
+nav ul li{
+  list-style: none!important;
+}
+
+nav ul li a{
+  text-decoration: none!important;
+}
+
+
+.checkbtn {
+	font-size: 25px;
+	color: white;
+	float: right;
+	margin-right: 40px;
+	cursor: pointer;
+	display: none;
+}
+
+nav.active .checkbtn {
+	color: black;
+}
+
+.checkbtn:hover {
+	color: #ADB6BC;
+	transition: .5s;
+}
+
+nav.active .checkbtn:hover {
+	color: #78b7bb;
+	transition: .5s;
+}
+
+#check {
+	display: none;
+}
+
+/*End of nav */
+
+
+.description {
+  font-size: 14px!important;
+}
+
+
+
+header.masthead {
+  padding-top: 10rem;
+  padding-bottom: calc(10rem - 4.5rem);
+  background: url("../images/K28.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-size: cover;
+}
+
+@media (min-width: 992px) {
+  header.masthead {
+    height: 100vh;
+    min-height: 40rem;
+    padding-top: 4.5rem;
+    padding-bottom: 0;
+  }
+}
+
+
+.contacts {
+    flex-direction: row;
+}
+
+.fa-facebook, .fa-facebook-f {
+  color: #4267B2;
+}
+
+.fa-twitter {
+  color: #1DA1F2;
+}
+
+.fa-whatsapp {
+  color: #128C7E;
+}
+
+.fa-linkedin-in {
+  color: #0072b1;
+}
+
+.fa-youtube {
+  color: #FF0000;
+}
+
+.fa-instagram {
+  color: #405DE6;
+}
+
+.fa-facebook:hover, .fa-facebook-f:hover, .fa-twitter:hover, 
+.fa-whatsapp:hover, .fa-linkedin-in:hover, .fa-youtube:hover,
+.fa-instagram:hover {
+  color: #99A4AB;
+}
+
+.contacts li{
+    list-style-type: none;
+    line-height: 0px;
+    padding-top: 0px;
+    font-size: 10px;
+    margin-right: 17px;
+}
+
+.contacts li a{
+  color: white;
+}
+
+.contacts li a:hover{
+  color: #2470a0!important;
+}
+
+.title-underline {
+    width: 290px;
+    height: 2px;
+}
+
+.masthead .contactheadertext {
+  font-size: 14px;
+  letter-spacing: 0.5px;
+  text-align: justify;
+}
+
+
+
+
 /*==========================
 Navigation
 ============================*/ 
 
-.navbar-collapse{
-    justify-content: center;
-}
+
 .navbar-collapse.collapse.in{
     display: inline-block;
     
@@ -16,6 +201,7 @@ Navigation
 .nav-item:hover li{
     color: #343a40;
 }
+
 /*======
 navigation ends
 =========================*/
@@ -38,6 +224,8 @@ img {vertical-align: middle;}
 }
 
 /* Caption text */
+
+
 .text {
   color: #f2f2f2;
   font-size: 15px;
@@ -99,120 +287,10 @@ img {vertical-align: middle;}
 Carousel ends
 ========================*/
 
-/*=====================
-TOP HOUSES
-======================*/
-
-.hvrbox .hvrbox-layer_slideup {
-	-moz-transform: translateY(100%);
-	-webkit-transform: translateY(100%);
-	-ms-transform: translateY(100%);
-	transform: translateY(100%);
-}
-.hvrbox:hover .hvrbox-layer_slideup,
-.hvrbox.active .hvrbox-layer_slideup {
-	-moz-transform: translateY(0);
-	-webkit-transform: translateY(0);
-	-ms-transform: translateY(0);
-	transform: translateY(0);
+.bg-light{
+  background-color: #f8f9fa!important;
 }
 
-/* Zoom Effect*/
-.tophouse-item:hover img{
-    -webkit-transform: scale(1.1);
-    transform: scale(1.1);
-}
-.tophouse-item img{
-    -webkit-transition: -webkit-transform 0.5s ease;
-    transition: -webkit-transform 0.5s ease;
-    transition: transform 0.5s ease;
-    transition: transform 0.5s ease, -webkit-transform 0.5s ease;
-}
-
-.tophouse-item{
-    overflow: hidden;
-    position: relative;
-}
-
-/* overlay effect*/
-.tophouse-item-overlay{
-    position: absolute;
-    top: 0;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    background: rgba(14, 14, 17, 0.7);
-    cursor: -webkit-zoom-in;
-    cursor: zoom-in;
-    opacity: 0;
-    -webkit-transition: all 0.8s ease;
-    transition: all 0.8s ease;
-}
-
-/* overlay details */
-.tophouse-item-details{
-    width: 100%;  
-    position: absolute;
-    top: 50%;
-    left: 0;
-    -webkit-transform: translateY(-50%);
-    transform: translateY(-50%);
-}
-
-.tophouse-item-details h3{
-    color: #f4c613;
-    text-transform: uppercase;
-    font-size: 30px;
-    margin: 0;
-    padding: 0;
-    -webkit-transform: translateY(-20%);
-    transform: translateY(-20%);
-    -webkit-transition: all 0.8s;
-    transition: all 0.8s;
-}
-
-.tophouse-item-details span{
-    display: inline-block;
-    border-top: 1px solid #fff;
-    border-bottom: 1px solid #fff;
-    height: 6px;
-    width: 30px;
-    margin: 11px auto 5px auto;
-}
-
-.tophouse-item-details p{
-    font-size: 17px;
-    color: #fff;
-    text-transform: uppercase;
-    margin: 0;
-    padding: 0;
-    -webkit-transform: translateY(20%);
-    transform: translateY(20%);
-    -webkit-transition: all 0.8s;
-    transition: all 0.8s;
-}
-
-/* display on hover */
-.tophouse-item:hover .tophouse-item-details h3{
-    -webkit-transform: translateY(0);
-    transform: translateY(0);   
-}
-
-.tophouse-item:hover .tophouse-item-details p{
-    -webkit-transform: translateY(0);
-    transform: translateY(0);   
-}
-
-.tophouse-item:hover .tophouse-item-overlay{
-    opacity: 1;
-}
-
-.column-margin{
-    margin: 10px 0;
-}
-/*=====================
-TOP HOUSES ENDS
-======================*/
 
 /*=====================
 STATS SECTION BEGINS
