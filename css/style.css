@@ -1,295 +1,24 @@
 /*============================================================================
                           INDEX PAGE
 =============================================================================*/
- 
-
-
-
-
-/* nav */
-
-nav {
-  top: 0;
-  width: 100%;
-  z-index: 100%;
-  background-color: #403C39;
-  transition: all 1s;
-  z-index: 100%;
-}
-
-nav a:hover {
-  color: #ADB6BC!important;
-}
-
-nav.active {
-  position: fixed;
-  top: 0;
-  width: 100%;
-  color: black!important;
-  background: white;
-  transition: all 5s;
-}
-
-
-
-nav.active a:hover {
-  color: #2470a0!important;
-}
-
-nav ul {
-	float: right;
-  margin-right: 60px;
-}
-
-nav ul li {
-	display: inline-block;
-	margin: 0 5px;
-	margin-right: 15px;
-  letter-spacing: 1px;
-}
-
-nav a{
-  color: white!important; 
-}
-
-nav.active a{
-  color: black!important;
-}
-
-.main_nav ul {
-  text-decoration: none!important;
-}
-
-nav ul li{
-  list-style: none!important;
-}
-
-nav ul li a{
-  text-decoration: none!important;
-}
-
-
-.checkbtn {
-	font-size: 25px;
-	color: white;
-	float: right;
-	margin-right: 40px;
-	cursor: pointer;
-	display: none;
-}
-
-nav.active .checkbtn {
-	color: black;
-}
-
-.checkbtn:hover {
-	color: #ADB6BC;
-	transition: .5s;
-}
-
-nav.active .checkbtn:hover {
-	color: #78b7bb;
-	transition: .5s;
-}
-
-#check {
-	display: none;
-}
-
-/*End of nav */
-
-
-.description {
-  font-size: 14px!important;
-}
-
-
-
-header.masthead {
-  padding-top: 10rem;
-  padding-bottom: calc(10rem - 4.5rem);
-  background: url("../images/K28.jpg");
-  background-position: center;
-  background-repeat: no-repeat;
-  background-attachment: scroll;
-  background-size: cover;
-}
-
-@media (min-width: 992px) {
-  header.masthead {
-    height: 100vh;
-    min-height: 40rem;
-    padding-top: 4.5rem;
-    padding-bottom: 0;
-  }
-}
-
-
-.contacts {
-    flex-direction: row;
-}
-
-.fa-facebook, .fa-facebook-f {
-  color: #4267B2;
-}
-
-.fa-twitter {
-  color: #1DA1F2;
-}
-
-.fa-whatsapp {
-  color: #128C7E;
-}
-
-.fa-linkedin-in {
-  color: #0072b1;
-}
-
-.fa-youtube {
-  color: #FF0000;
-}
-
-.fa-instagram {
-  color: #405DE6;
-}
-
-.fa-facebook:hover, .fa-facebook-f:hover, .fa-twitter:hover, 
-.fa-whatsapp:hover, .fa-linkedin-in:hover, .fa-youtube:hover,
-.fa-instagram:hover {
-  color: #99A4AB;
-}
-
-.contacts li{
-    list-style-type: none;
-    line-height: 0px;
-    padding-top: 0px;
-    font-size: 10px;
-    margin-right: 17px;
-}
-
-.contacts li a{
-  color: white;
-}
-
-.contacts li a:hover{
-  color: #2470a0!important;
-}
-
-.title-underline {
-    width: 290px;
-    height: 2px;
-}
-
-.masthead .contactheadertext {
-  font-size: 14px;
-  letter-spacing: 0.5px;
-  text-align: justify;
-}
-
-
-
-
+                          
 /*==========================
 Navigation
 ============================*/ 
 
-
+.navbar-collapse{
+  justify-content: center;
+}
 .navbar-collapse.collapse.in{
-    display: inline-block;
-    
+  display: inline-block;
+  
 }
 .nav-item:hover li{
-    color: #343a40;
+  color: #343a40;
 }
-
 /*======
 navigation ends
 =========================*/
-
-/*=======================
-carousel
-======================*/
-
-
-
-* {box-sizing: border-box;}
-.mySlides {display: none;}
-img {vertical-align: middle;}
-
-/* Slideshow container */
-.slideshow-container {
-  max-width: 1000px;
-  position: relative;
-  margin: auto;
-}
-
-/* Caption text */
-
-
-.text {
-  color: #f2f2f2;
-  font-size: 15px;
-  padding: 8px 12px;
-  position: absolute;
-  bottom: 8px;
-  width: 100%;
-  text-align: center;
-}
-
-/* Number text (1/3 etc) */
-.numbertext {
-  color: #f2f2f2;
-  font-size: 12px;
-  padding: 8px 12px;
-  position: absolute;
-  top: 0;
-}
-
-/* The dots/bullets/indicators */
-.dot {
-  height: 15px;
-  width: 15px;
-  margin: 0 2px;
-  background-color: #bbb;
-  border-radius: 50%;
-  display: inline-block;
-  transition: background-color 0.6s ease;
-}
-
-
-
-/* Fading animation */
-.fade {
-  -webkit-animation-name: fade;
-  -webkit-animation-duration: 5.0s;
-  animation-name: fade;
-  animation-duration: 5.0s;
-    
-}
-
-@-webkit-keyframes fade {
-  from {opacity: .4} 
-  to {opacity: 1}
-}
-
-@keyframes fade {
-  from {opacity: .4} 
-  to {opacity: 1}
-}
-
-/* On smaller screens, decrease text size */
-@media only screen and (max-width: 300px) {
-  .text {font-size: 11px}
-}
-
-
-/*======================
-Carousel ends
-========================*/
-
-.bg-light{
-  background-color: #f8f9fa!important;
-}
 
 
 /*=====================
@@ -297,82 +26,82 @@ STATS SECTION BEGINS
 ======================*/
 
 .vertical-heading h5 {
-    color: #0072ff;
-    font-size: 14px;
-    font-weight: 500;
-    text-transform: uppercase;
-    word-spacing: 9px;
-    display: inline-block;
-    -webkit-transform: rotate(-90deg);
-    transform: rotate(-90deg);
-    position: relative;
-    top: 60px;
-    left: -53px;
+  color: #0072ff;
+  font-size: 14px;
+  font-weight: 500;
+  text-transform: uppercase;
+  word-spacing: 9px;
+  display: inline-block;
+  -webkit-transform: rotate(-90deg);
+  transform: rotate(-90deg);
+  position: relative;
+  top: 60px;
+  left: -53px;
 }
 
 .vertical-heading h2 {
-    margin: 0 0 0 35px;
+  margin: 0 0 0 35px;
 }
 
 .vertical-heading h2 {
-    font-size: 42px;
-    font-weight: 100;
-    line-height: 45px;
+  font-size: 42px;
+  font-weight: 100;
+  line-height: 45px;
 }
 
 #stats{
-    background: url("../gen renders/MTWAPA HOTEL/111.jpg") no-repeat fixed center;
-    background-size: cover;
+  background: url("../gen renders/MTWAPA HOTEL/111.jpg") no-repeat fixed center;
+  background-size: cover;
 }
 
 #stats .content-box-md{
-    background: rgba(0, 0, 0, 0.8);
+  background: rgba(0, 0, 0, 0.8);
 }
 
 #stats .vertical-heading h2{
-    color: #fff;
+  color: #fff;
 }
 
 #stats .vertical-heading{
-    margin-bottom: 50px;
+  margin-bottom: 50px;
 }
 
 .stats-item{
-    background: rgba(61, 68, 68, 0.6);
-    border-radius: 4px;
-    min-height: 170px;
-    padding: 25px 50px;
-    -webkit-transition: all 400ms linear;
-    transition: all 400ms linear;
+  background: rgba(61, 68, 68, 0.6);
+  border-radius: 4px;
+  min-height: 170px;
+  padding: 25px 50px;
+  -webkit-transition: all 400ms linear;
+  transition: all 400ms linear;
 }
 
 .stats-item i{
-    font-size: 42px;
-    color: #0072ff;
-    margin: 0 0 6px 0;
-    -webkit-transition: all 400ms linear;
-    transition: all 400ms linear;
+  font-size: 42px;
+  color: #0072ff;
+  margin: 0 0 6px 0;
+  -webkit-transition: all 400ms linear;
+  transition: all 400ms linear;
 }
 
 .stats-item h3{
-    font-size: 32px;
-    color: #fff;
-    margin: 5px 0 5px 0;
+  font-size: 32px;
+  color: #fff;
+  margin: 5px 0 5px 0;
 }
 
 .stats-item p{
-    color: #fff;
-    margin: 0;
+  color: #fff;
+  margin: 0;
 }
 
 .stats-item:hover{
-    background: #0072ff;
+  background: #0072ff;
 } 
 
 .stats-item:hover i{
-    color: #fff;
-    -webkit-transform: translateY(-20px);
-    transform: translateY(-20px);
+  color: #fff;
+  -webkit-transform: translateY(-20px);
+  transform: translateY(-20px);
 }
 
 
@@ -383,79 +112,79 @@ STATS SECTION ENDS
 
 
 /*======================
- SIDEBAR BEGINS
+SIDEBAR BEGINS
 =======================*/
 .interior{
-  height: auto;
-  width: 100%;
+height: auto;
+width: 100%;
 }
 
 
 
 /*======================
- SIDEBAR ENDS
+SIDEBAR ENDS
 =======================*/
 /*====================
 footer
 ====================*/
 
 footer{
-  position: relative;
-  clear: both;
-  height: 40px;
-  margin-top: 0px;
-  bottom: 0;
+position: relative;
+clear: both;
+height: 40px;
+margin-top: 0px;
+bottom: 0;
 }
 
 
 .bottom{
-  background-color: #000000;
-  z-index: -100;
+background-color: #000000;
+z-index: -100;
 }
 
 footer{
-  color: #dddddd;
+color: #dddddd;
 }
 #foot{
-  background-color: #000000;
-      
+background-color: #000000;
+    
 }
 
 .bottom hr{
-  background-color: #fff;
+background-color: #fff;
 }
 
 #pages a{
-    color: #fff;
+  color: #fff;
 }
 
 .footer-div{
-    margin-top: 10px;
+  margin-top: 10px;
 }
 
 #contact p a{
-    color: #fff;
+  color: #fff;
 }
 
 .btn-back-to-top{
-    position: fixed;
-    bottom: 20px;
-    right: 20px;
-    padding: 3px 15px;
-    border-radius: 4px;
-    font-size: 22px;
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  padding: 3px 15px;
+  border-radius: 4px;
+  font-size: 22px;
 }
 /*========================
- SOCIAL BEGINS
+SOCIAL BEGINS
 =========================*/
 
 .social{
-    background-color: #000000;
+  background-color: #000000;
 }
 
 
 /*===============
- SOCIAL ENDS
+SOCIAL ENDS
 ================*/
 
 
@@ -467,127 +196,127 @@ archihub css
 
 
 /*=====================
-  table
-  =====================*/
+table
+=====================*/
 
 table {
-  font-family: arial, sans-serif;
-  border-collapse: collapse;
-  width: 100%;
+font-family: arial, sans-serif;
+border-collapse: collapse;
+width: 100%;
 }
 
 td, th {
-  border: 1px solid #dddddd;
-  text-align: left;
-  padding: 8px;
+border: 1px solid #dddddd;
+text-align: left;
+padding: 8px;
 }
 
 td {
-    width: 25%;
+  width: 25%;
 }
 
 tr:nth-child(even) {
-  background-color: #dddddd;
+background-color: #dddddd;
 }
 
 /*=====================
-  table
-  =====================*/
+table
+=====================*/
 
 
 /*=============================================================
-        SERVICES PAGE
-  ============================================================*/
+      SERVICES PAGE
+============================================================*/
 
- /*=====================
- content div
- =====================*/
+/*=====================
+content div
+=====================*/
 
 #services{
-  background: #f4f4f4;
+background: #f4f4f4;
 }
 .service{
-  background: #fff;
-  padding: 80px 30px;
-  -webkit-box-shadow: 0 0 10px rgba(0,0,0, .1);
-  box-shadow: 0 0 10px rgba(0,0,0, .1);
+background: #fff;
+padding: 80px 30px;
+-webkit-box-shadow: 0 0 10px rgba(0,0,0, .1);
+box-shadow: 0 0 10px rgba(0,0,0, .1);
 }
- .service hr{
+.service hr{
+background-color: #0072ff;
+margin: 0 auto;
+}
+
+.service:hover hr{
+ background-color: #fff;
+}
+.service li{
+ margin-top: 20px;
+}
+
+.service:hover{
  background-color: #0072ff;
- margin: 0 auto;
- }
+ transform: translateY(-10px);
+}
 
- .service:hover hr{
-   background-color: #fff;
- }
- .service li{
-   margin-top: 20px;
- }
+.service:hover h5, .service:hover li{
+ color: #fff;
+}
+.service{
+ -webkit-transition: all 400ms ease-in-out;
+ transition: all 400ms ease-in-out;
+}
 
- .service:hover{
-   background-color: #0072ff;
-   transform: translateY(-10px);
- }
-
- .service:hover h5, .service:hover li{
-   color: #fff;
- }
- .service{
-   -webkit-transition: all 400ms ease-in-out;
-   transition: all 400ms ease-in-out;
- }
-
- /*=====================
- content div ends
- =====================*/
+/*=====================
+content div ends
+=====================*/
 
 /*=======================
-  Content Boxes
-  =====================*/
+Content Boxes
+=====================*/
 
 .content-box-md{
-    padding: 100px 0;
+  padding: 100px 0;
 }
 
 
 /*=======================
-  Content Boxes end
-  =====================*/
+Content Boxes end
+=====================*/
 
 /*===========================================================================================
-                            ABOUT US PAGE
+                          ABOUT US PAGE
 ===========================================================================================*/
 
 /*===================
 Philosophy section
 ====================*/
 .philosophy{
-    background: url("../gen renders/MTWAPA HOTEL/111.jpg") no-repeat fixed center;
-    background-size: cover;
+  background: url("../gen renders/MTWAPA HOTEL/111.jpg") no-repeat fixed center;
+  background-size: cover;
 }
 .philosophy-item{
-    background: rgba(61, 68, 68, 0.9);
-    border-radius: 4px;
-    min-height: 170px;
-    padding: 25px 50px;
-    -webkit-transition: all 400ms linear;
-    transition: all 400ms linear;
-    margin-top: 10px;
+  background: rgba(61, 68, 68, 0.9);
+  border-radius: 4px;
+  min-height: 170px;
+  padding: 25px 50px;
+  -webkit-transition: all 400ms linear;
+  transition: all 400ms linear;
+  margin-top: 10px;
 }
 .philosophy-item h5{
-    font-size: 32px;
-    color: #fff;
-    margin: 5px 0 5px 0;
+  font-size: 32px;
+  color: #fff;
+  margin: 5px 0 5px 0;
 }
 
 .philosophy-item p{
-    color: #fff;
-    margin: 0;
+  color: #fff;
+  margin: 0;
 }
 
 .philosophy-item:hover{
-    background: #0072ff;
+  background: #0072ff;
 } 
 .philosophy-item hr{
-    background-color: #fff;
+  background-color: #fff;
 }
