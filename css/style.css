@@ -20,6 +20,26 @@ Navigation
 navigation ends
 =========================*/
 
+/*=============
+intro
+=================*/
+
+#intro{
+  height: 95%;
+}
+
+#intro{
+  background: url("../images/111.jpg")no-repeat center center ;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+/*=====================
+intro ends
+======================*/
+
 
 /*=====================
 STATS SECTION BEGINS

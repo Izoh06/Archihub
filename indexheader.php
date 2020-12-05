@@ -20,9 +20,9 @@
   
   <!--CUSTOM CSS-->
   <link rel="stylesheet" href="./swiper-bundle.min.css">
-  <link rel="stylesheet" type="text/css" href="css/style.css">
-  <link rel="stylesheet" type="text/css" href="css/contact.css">
-  <link rel="stylesheet" type="text/css" href="css/responsive.css">
+  <link rel="stylesheet" type="text/css" href="css/index.css">
+  <link rel="stylesheet" type="text/css" href="contact.css">
+  
 
 
   <style>
@@ -48,6 +48,8 @@
       height: 300px;
 
     }
+
+
 
 
   </style>

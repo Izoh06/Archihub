@@ -1,6 +1,17 @@
 <?php
-     include('header.php');
+include('indexheader.php')
 ?>
+
+<div id="intro" class="view">
+    <div class="full-bg-img">
+    </div>
+</div>
+
+
+</header>
+
+
+<!-- bg -->
 
 <section class="tophouse">
   <div class="container-fluid">
