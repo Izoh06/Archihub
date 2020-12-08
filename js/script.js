@@ -19,3 +19,6 @@ window.onscroll = function() {
 		nav.classList.remove('active');
 	}
 }
+
+// Animations init
+new WOW().init();
