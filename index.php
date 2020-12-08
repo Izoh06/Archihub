@@ -2,16 +2,30 @@
 include('indexheader.php')
 ?>
 
-<div id="intro" class="view">
-    <div class="full-bg-img">
-    </div>
-</div>
 
-
-</header>
 
 
 <!-- bg -->
+<div class="container mt-5 mb-5">
+  <div class="about bg-white shadow border pt-4 pr-4 pl-4 pb-3">
+    <p class="text-muted mb-2" style="font-size: large;">About us</p>
+    <p class="text-justify aboutusContant" style="font-size: small;">
+    Archi-hub Studio is a creative house incepted in 2014 and incorporated in 2018 under the founder Architect Mugambi and Architect Aunga.
+          Our heartful specialty is to continuously provide new and innovative Architectural and building solutions, Interior and spatial design solutions in design and full project installations.
+          
+          Archi-hub Studio is a design and build company employing building specialists in the key areas of the Building Industry.
+          
+          We have a wide network serving the Kenyan market and East Africa as well.
+   </p>
+   <p class="text-center">
+     <strong class="text-center">
+       Everybody deserves a good home
+     </strong>  
+   </p>
+</div>  
+</div>
+
+
 
 <section class="tophouse">
   <div class="container-fluid">
@@ -179,7 +193,7 @@ include('indexheader.php')
 
 
 
-
+<!--
 <div>
 <div class="container-fluid">
  <h3 class="text-center">Interior Design of a cafe</h3>
@@ -212,7 +226,7 @@ include('indexheader.php')
 </div><br>
 
 </div>
-
+-->
 <!-- STATS -->
 <section id="stats">
    <div class="content-box-md">
@@ -235,7 +249,7 @@ include('indexheader.php')
                       <i class="fa fa-bar-chart"></i>
                       <h3 class="counter">9</h3>
                       <p>Years Experience</p>
-                   </div>
+                   </div><br>
                </div>
                
                <div class="col-md-4 column-margin">
@@ -245,7 +259,7 @@ include('indexheader.php')
                       <i class="fa fa-codepen"></i>
                       <h3 class="counter">25</h3>
                       <p>Projects Done</p>
-                   </div>
+                   </div><br>
                </div>
                
                <div class="col-md-4 column-margin">

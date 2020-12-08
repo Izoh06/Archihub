@@ -49,7 +49,8 @@
        
          
        
-   <div class="footer text-center" id="foot">
+   <div class="footer text-center mt-0.9" id="foot">
+     <br>
      <ul align="center">
      Copyright &copy;
      <script>
@@ -57,8 +58,7 @@
      </script> Archihub Studio.All rights Reserved.
    </ul>
    <br>
-   
-   <br/>
+
  </div>
  
  <!-- Back To Top -->
