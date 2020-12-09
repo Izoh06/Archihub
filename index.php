@@ -2,7 +2,44 @@
 include('indexheader.php')
 ?>
 
-
+<div class="container-fluid">   
+<div id="demo" class="carousel slide"  data-ride="carousel">
+  <ul class="carousel-indicators">
+    <li data-target="#demo" data-slide-to="0" class="active"></li>
+    <li data-target="#demo" data-slide-to="1"></li>
+    <li data-target="#demo" data-slide-to="2"></li>
+  </ul>
+  <div class="carousel-inner">
+    <div class="carousel-item active" class="img-responsive">
+      <img src="gen renders/FOUR BEDROOM MAISONETTE/kj4.jpg" class="img-fluid">
+      <div class="carousel-caption">
+        <h3>Kiambu County</h3>
+        <p>4 Bdrm</p>
+      </div>   
+    </div>
+    <div class="carousel-item">
+      <img src="gen renders/MTWAPA HOTEL/555.jpg" class="img-fluid">
+      <div class="carousel-caption">
+        <h3>Kilifi County</h3>
+        <p>Hotel rooms</p>
+      </div>   
+    </div>
+    <div class="carousel-item">
+      <img src="gen renders\DR ROMANO FOUR BEDROOM MAISONETTE\j10.jpg" class="img-fluid">
+      <div class="carousel-caption">
+        <h3>Juba City</h3>
+        <p>Flat roof</p>
+      </div>   
+    </div>
+  </div>
+  <a class="carousel-control-prev" href="#demo" data-slide="prev">
+    <span class="carousel-control-prev-icon"></span>
+  </a>
+  <a class="carousel-control-next" href="#demo" data-slide="next">
+    <span class="carousel-control-next-icon"></span>
+  </a>
+</div>
+</div>
 
 
 <!-- bg -->
