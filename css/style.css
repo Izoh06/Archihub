@@ -6,35 +6,24 @@
 Navigation
 ============================*/ 
 
-.navbar-collapse{
-  justify-content: center;
+
+
+.top-nav-collapse {
+  background-color: #1d1f20 !important;
 }
-.navbar-collapse.collapse.in{
-  display: inline-block;
-  
+
+.navbar:not(.top-nav-collapse) {
+  background:  #1d1f20!important;
 }
-.nav-item:hover li{
-  color: #343a40;
+
+@media (max-width: 991px) {
+  .navbar:not(.top-nav-collapse) {
+    background:  #1d1f20 !important;
+  }
 }
 /*======
 navigation ends
 =========================*/
-
-/*=============
-intro
-=================*/
-
-#intro{
-  height: 95%;
-}
-
-#intro{
-  background: url("../images/111.jpg")no-repeat center center ;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
-}
 
 /*=====================
 intro ends

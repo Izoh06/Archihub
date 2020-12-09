@@ -48,25 +48,24 @@
   </style>
 
 
-
 </head>
 <body>
 
 
 
 
-<header>
+<header >
           <!--Navbar-->
-          <nav class="navbar navbar-expand-lg navbar-dark fixed-top scrolling-navbar shadow">
+          <nav id="header" style="margin:0 15px;" class="navbar navbar-expand-lg navbar-dark scrolling-navbar shadow">
             <div class="container">
-              <a class="navbar-brand" href="#"><strong>ARCHIHUB</strong></a>
+              <a class="navbar-brand" href="index.php"><strong>ARCHIHUB</strong></a>
               <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent-7" aria-controls="navbarSupportedContent-7" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
               </button>
               <div class="collapse navbar-collapse" id="navbarSupportedContent-7">
                 <ul class="navbar-nav mr-auto">
-                  <li class="nav-item active">
-                    <a class="nav-link" href="index.php">HOME <span class="sr-only">(current)</span></a>
+                  <li class="nav-item">
+                    <a class="nav-link" href="index.php">HOME</a>
                     <li class="nav-item">
                       <a class="nav-link" href="Planrequest.php">PLAN REQUEST</a>
                     </li>
@@ -90,31 +89,6 @@
               </div>
             </div>
           </nav>
-          <!-- Navbar -->
-          <!-- Full Page Intro -->
-          <div class="view" style="background-image: linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.3)),url('images/111.jpg'); background-repeat: no-repeat; background-size: cover; background-position: center center;">
-            <!-- Mask & flexbox options-->
-            <div class="mask rgba-black-light align-items-center">
-              <!-- Content -->
-              <div class="container">
-                <!--Grid row-->
-                <div class="row">
-                  <!--Grid column-->
-                  <div class="col-md-12 mb-3 white-text text-center text-light">
-                    
-                  </div>
-                  <!--Grid column-->
-                </div>
-                <!--Grid row-->
-              </div>
-              <!-- Content -->
-            </div>
-            <!-- Mask & flexbox options-->
-          </div>
-          <!-- Full Page Intro -->
-        </header>
-        <!-- Main navigation -->
-        <!--Main Layout-->
-        <!--Main Layout-->
+         
 
     
